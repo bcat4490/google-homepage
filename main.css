@@ -1,0 +1,21 @@
+body {
+    height: 100%
+}
+
+#logo {
+    margin: auto;
+    width: 500px;
+    height: 180px;
+}
+
+#search_bar {
+    margin: auto;
+    width: 584px;
+    height: 86px;
+}
+
+#search_bar input {
+    
+    width: 584px;
+    height: 46px;
+}
