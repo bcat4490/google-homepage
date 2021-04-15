@@ -1,0 +1,160 @@
+
+
+html,body {
+    height: 100vh;
+}
+
+div,a {
+    border: 1px solid black;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header_left {
+    display: flex;
+    padding: 5px;
+    
+    
+}
+
+.header_left > a {
+    margin: 5px;
+}
+
+.header_right {
+    display: flex;
+    padding: 5px;
+    
+}
+
+.header_right > a {
+    margin: 5px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1;
+    align-items: center;
+    max-height: 290px;
+    min-height: 92px;
+    
+}
+
+.logo_image {
+    height: 92px;
+    width: 272px;
+ 
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    max-height: 160px;
+    padding: 20px;
+}
+
+.search_bar {
+    display: flex;
+    max-width: 584px;
+    padding: 5px;
+    width: 100%;
+    
+     
+}
+
+.search_icon {
+    width: 33px;
+    height: 44px;
+    padding: 5px;
+    
+}
+
+.search_input {
+    padding: 5px;
+    flex: 1;
+    
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    max-width: 584px;
+    width: 100%;
+
+}
+
+.go_button {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.lucky_button {
+    width: 50px;
+    height: 40px;
+}
+
+.bottom {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    
+      
+}
+
+/* .footer_wrapper {
+    display: flex;
+    
+} */
+
+.footer_left {
+    display: flex;
+    padding: 5px;
+    
+   
+}
+
+.footer_left > a {
+    padding: 3px;
+    
+}
+
+.footer_center {
+    display: flex;
+    padding: 5px;
+    
+}
+
+.footer_right {
+    display: flex;
+    padding: 5px;
+    
+}
+
+.footer_right > a {
+    padding: 3px;
+}
+
+
+
+
