@@ -5,6 +5,8 @@ html,body {
 }
 
 
+
+
 a:hover {
     text-decoration: underline;
 }
@@ -21,31 +23,71 @@ a:hover {
     padding: 6px;
 }
 
-.header_link {
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    color: #222;
-    text-decoration: none;
-}
-
 
 .header_left {
     display: flex;
-    padding: 5px;
     align-items: center;
 }
 
 .hl_left {
     padding: 6px;
-    margin: 5px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    text-decoration: none;
+    
 }
-
-
 
 .header_right {
     display: flex;
-    padding: 5px;
     align-items: center;
+    padding: 7px 6px;
+}
+
+.hl_right {
+    margin: 0 10px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    text-decoration: none;
+}
+
+.products {
+    height: 30px;
+    width: 30px;
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+}
+
+.products:hover {
+    text-decoration: none;
+}
+
+.sign_in {
+    margin: 0 7px;
+    border: 1px solid transparent;
+    color: #fff;
+    outline: none;
+    background: #1a73e8;
+    border-radius: 4px;
+    padding: 9px 23px;
+    min-width: 96px;
+    line-height: 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.sign_in:hover {
+    text-decoration: none;
 }
 
 
