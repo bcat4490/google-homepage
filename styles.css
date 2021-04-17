@@ -118,9 +118,18 @@ div,a {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    justify-content: space-between;
     
       
 }
+
+@media only screen and ( max-width:1200px) {
+    .footer {
+        justify-content: space-evenly;
+    }
+    
+}
+
 
 /* .footer_wrapper {
     display: flex;
@@ -130,6 +139,7 @@ div,a {
 .footer_left {
     display: flex;
     padding: 5px;
+    order: 1;
     
    
 }
@@ -142,12 +152,23 @@ div,a {
 .footer_center {
     display: flex;
     padding: 5px;
+    justify-content: center;
+    order: 2;
+    
+}
+
+@media only screen and ( max-width:1200px) {
+    .footer_center {
+        order: 0;
+        width: 100%;
+    }
     
 }
 
 .footer_right {
     display: flex;
     padding: 5px;
+    order: 3;
     
 }
 
