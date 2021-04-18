@@ -169,16 +169,20 @@ a:hover {
     width: 100%;
 }
 
-.go_button {
-    width: 50px;
-    height: 40px;
-    margin-right: 10px;
+.button_style {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 25px 7px;
+    cursor: pointer;
 }
 
-.lucky_button {
-    width: 50px;
-    height: 40px;
-}
 
 .bottom {
     flex: 1;
