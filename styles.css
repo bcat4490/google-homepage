@@ -2,7 +2,7 @@
 
 html,body {
     height: 100vh;
-    
+      
 }
 
 
@@ -154,8 +154,14 @@ input {
     flex: 1; 
 }
 
+.input {
+    border: none;
+    width: 100%;
+}
+
 input[type=text], textarea {
     background-color: #fff;
+    
 }
 
 .input:focus {
